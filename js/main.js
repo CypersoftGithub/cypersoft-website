@@ -20,8 +20,10 @@
     $(window).scroll(function () {
         if ($(this).scrollTop() > 45) {
             $('.navbar').addClass('sticky-top shadow-sm');
+            $('#Cypersoft_logo').attr('src','img/Common/header-logo-B-2.png');
         } else {
             $('.navbar').removeClass('sticky-top shadow-sm');
+            $('#Cypersoft_logo').attr('src','img/Common/header-logo-B-2.png');
         }
     });
     
